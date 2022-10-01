@@ -2,11 +2,13 @@
     display: flex;
     justify-content: right;
     background-color: rgb(22, 16, 36);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.45);
     width: 100%;
     height: auto;
     padding-bottom: .5vh;
     position: fixed;
+    z-index: 10;
+
 }
 
 .nav-menu {

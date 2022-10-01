@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    margin-bottom: 100vh;
+    width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: hidden;
+}
+
+.introduction {
+    color: rgb(254, 193, 113);
+    font-size: 8rem;
+    font-weight: 600;
+    top: 18vh;
+    left: 58vw;
+    font-family: 'Dancing Script';
+    position: absolute;
+    transform: translate(-30%, -30%);
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+
