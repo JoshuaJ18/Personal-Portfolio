@@ -1,0 +1,34 @@
+.NavbarItems{
+    display: flex;
+    justify-content: right;
+    background-color: rgb(22, 16, 36);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: auto;
+    padding-bottom: .5vh;
+    position: fixed;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 12vw;
+    list-style: none;
+
+}
+
+.nav-links{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.nav-links:hover {
+    color: rgb(83, 74, 106);
+    transition-delay: 5ms;
+}
+
+@media (max-width: 901px) {
+    
+}
