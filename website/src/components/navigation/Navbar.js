@@ -2,7 +2,7 @@ import { Component } from "react";
 import { MenuData } from "./MenuData";
 import "./NavbarStyles.css";
 
-class Navibar extends Component {
+class Navbar extends Component {
   render() {
     return(
       <nav className="NavbarItems">
@@ -23,4 +23,4 @@ class Navibar extends Component {
   }
 }
 
-export default Navibar;
+export default Navbar;
