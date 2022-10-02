@@ -1,24 +1,66 @@
+
+.parallax {
+    position: fixed;
+}
+
 .container {
     display: flex;
-    margin-bottom: 100vh;
-    width: 100%;
+    margin-bottom: 50vh;
+    width: 95%;
     height: auto;
 }
 
 .hidden {
-    display: hidden;
+    z-index: -10;
 }
 
-.introduction {
-    color: rgb(254, 193, 113);
-    font-size: 8rem;
-    font-weight: 600;
-    top: 18vh;
-    left: 58vw;
-    font-family: 'Dancing Script';
-    position: absolute;
-    transform: translate(-30%, -30%);
-    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+.text {
+    display: flex;
+    position: relative;
+    color: white;
+    font-family: Oswald;
+    font-size: 8vw;
+    padding-left: 2vw;
+    padding-top: 25vh;
 }
+
+.image-div {
+    display: flex;
+    position: absolute;
+    padding-top: 25vh;
+    padding-left: 60vw;
+    z-index: -1;
+}
+
+.image {
+    max-width: 30vw;
+    max-height: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    .text {
+        padding-top: 8vh;
+        font-size: 20vw;
+    }
+
+    .image-div {
+        margin-top: 40vh;
+        padding-left: 14vw;
+    }
+
+    .image {
+        max-width: 70vw;
+        max-height: auto;
+    }
+
+
+}
+
 
 
