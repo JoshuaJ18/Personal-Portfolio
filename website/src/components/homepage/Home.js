@@ -6,7 +6,7 @@ import programmer from './programmer.png';
 class Home extends Component {
   render() {
     return(
-      <div className="container" >
+      <div className="home-container" >
         <p className="hidden" id="Home">h</p>
         <h1 className="text">
           Hello, my name is <br/> Joshua Jones

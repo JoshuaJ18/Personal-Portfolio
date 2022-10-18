@@ -1,4 +1,21 @@
-.test {
-    margin-top: 80vh;
+.about-container {
+    display: block;
+    position: relative;
+    margin-top: 10vh;
+    padding-left: 2vw;
+}
+
+.header {
+    display: flex;
+    position: relative;
     color: white;
+    font-size: 5vh;
+}
+
+.paragraph{
+    display: flex;
+    position: relative;
+    margin-top: .2vh;
+    color: white;
+    font-size: 3.5vh;
 }

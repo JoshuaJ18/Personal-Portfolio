@@ -3,7 +3,7 @@
     position: fixed;
 }
 
-.container {
+.home-container {
     display: flex;
     margin-bottom: 50vh;
     width: 95%;
