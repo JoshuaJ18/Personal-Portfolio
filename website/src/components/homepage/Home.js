@@ -1,6 +1,5 @@
 import { Component } from "react";
 import "./HomeStyles.css";
-import programmer from './programmer.png';
 
 
 class Home extends Component {
@@ -8,11 +7,13 @@ class Home extends Component {
     return(
       <div className="home-container" >
         <p className="hidden" id="Home">h</p>
-        <h1 className="text">
-          Hello, my name is <br/> Joshua Jones
-        </h1>
-        <div className="image-div">
-          <img className="image" src={ programmer } alt="programmer"/>
+        <div className="intro-div">
+          <h1 className="intro-text">
+            Hello, my name is Joshua Jones
+          </h1>
+        </div>
+        <div className="text-div">
+          <p className="text"> I am a sophomore Computer Science Major</p>
         </div>
       </div>
     );

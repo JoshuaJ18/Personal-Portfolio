@@ -4,8 +4,11 @@
 }
 
 .home-container {
-    display: flex;
-    margin-bottom: 50vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30vh;
+    margin-bottom: 60vh;
     width: 95%;
     height: auto;
 }
@@ -14,51 +17,43 @@
     z-index: -10;
 }
 
-.text {
-    display: flex;
+
+.intro-text {
+    display: block;
     position: relative;
     color: white;
     font-family: Oswald;
-    font-size: 8vw;
-    padding-left: 2vw;
-    padding-top: 25vh;
+    font-size: 5em;
+    margin-left: 10vw;
+    min-width: 80%;
 }
 
-.image-div {
+.text-div {
     display: flex;
-    position: absolute;
-    padding-top: 25vh;
-    padding-left: 60vw;
-    z-index: -1;
+    position: relative;
+    min-width: 40%;
+    margin-left: 10vw;
 }
 
-.image {
-    max-width: 30vw;
-    max-height: auto;
+.text {
+    color: white;
+    font-family: Oswald;
+    font-size: 2.5em;
+    font-style: italic;
 }
 
 
 @media screen and (max-width: 600px) {
-    .container {
+    .home-container {
+        padding-top: 8vh;
+        margin-bottom: 10vh;
         width: 100%;
         height: auto;
     }
 
-    .text {
-        padding-top: 8vh;
-        font-size: 20vw;
+    .intro-text {
+        font-size: 18vw;
     }
-
-    .image-div {
-        margin-top: 40vh;
-        padding-left: 14vw;
-    }
-
-    .image {
-        max-width: 70vw;
-        max-height: auto;
-    }
-
 
 }
 
