@@ -37,3 +37,13 @@ a:visited {
   text-decoration: none;
 }
 
+@media screen and (max-width: 600px) {
+  .text ul {
+    font-size: .5em;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 20vw;
+    grid-row-gap: 5vh;
+    margin-left: -10vw;
+  }
+}
+
