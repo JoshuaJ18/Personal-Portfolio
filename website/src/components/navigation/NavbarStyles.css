@@ -4,7 +4,7 @@
     align-items: center;
     background-color: rgb(22, 16, 36);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.45);
-    width: 101%;
+    width: 100%;
     height: auto;
     padding-bottom: .5vh;
     position: fixed;
@@ -14,8 +14,8 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 12vw;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10vw;
     list-style: none;
 
 }

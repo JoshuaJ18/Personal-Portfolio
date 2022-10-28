@@ -4,6 +4,7 @@ import './index.css';
 import Navbar from './components/navigation/Navbar';
 import Home from './components/homepage/Home';
 import AboutMe from './components/about/AboutMe';
+import Project from './components/projects/Project';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +13,7 @@ root.render(
     <Navbar />,
     <Home />,
     <AboutMe />,
+    <Project />,
   </React.StrictMode>
 );
 
