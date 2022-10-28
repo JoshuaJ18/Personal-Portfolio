@@ -1,0 +1,70 @@
+.experience-container {
+  display: flex;
+  margin-top: 80vh;
+  margin-bottom: 20vh;
+}
+
+.experience-header {
+  font-size: 2.1em;
+  width: 85vw;
+  color: white;
+  padding-left: 5vw;
+}
+
+hr {
+  border: 2.5px solid white;
+  margin-top: -5vh;
+  background: white;
+
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: -2vh;
+}
+
+h3 {
+  font-size: .9em;
+  font-weight: 500;
+}
+
+.job-titles {
+  float: left;
+  width: 50%;
+}
+
+.dates {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+
+.job-description {
+  font-size: .8em;
+}
+
+@media screen and (max-width: 600px) {
+  .experience-header {
+    font-size: 1.7em;
+  }
+
+  hr {
+    margin-top: -2vh;
+  }
+  
+  h2 {
+    font-size: 1em;
+    margin-bottom: 0vh;
+  }
+
+  h3 {
+    font-size: .5em;
+  }
+
+  .job-description {
+    font-size: .45em;
+    margin-top: 25%;
+    max-width: 98%;
+  }
+}
+
