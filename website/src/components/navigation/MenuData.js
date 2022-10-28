@@ -21,7 +21,7 @@ export const MenuData = [
   },
   {
     title: "Contact Me",
-    url: "#",
+    url: "#Contact",
     cName: "nav-links",
   },
 ]

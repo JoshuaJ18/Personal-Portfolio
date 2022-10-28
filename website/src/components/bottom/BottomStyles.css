@@ -1,0 +1,39 @@
+.bottom-hr hr {
+  border: .1px solid gray;
+  width: 90%;
+  opacity: 30%;
+  margin-top: 10vh;
+  margin-bottom: -.5vh;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text ul {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 15vw;
+  list-style: none;
+  font-style: normal;
+  font-size: .5em;
+  font-weight: 100;
+  margin-bottom: -.5vh;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(83, 74, 106);
+  transition-delay: 5ms;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
