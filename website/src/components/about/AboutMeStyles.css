@@ -39,7 +39,7 @@
     .paragraph {
         text-align: center;
         outline: auto;
-        color: white;
+        color: red;
         font-size: 1.5em;
         padding-top: .1vh;
         padding-bottom: .1vh;
