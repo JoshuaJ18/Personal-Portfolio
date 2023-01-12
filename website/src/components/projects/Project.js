@@ -22,6 +22,7 @@ function Project() {
                 <h1> {item.pName} </h1>
                 <img src={item.img} className="img"/>
                 <p> {item.description} </p>
+                <a href={item.link} target="_blank"> Link to GitHub </a>
               </li>
             </ul>
           )

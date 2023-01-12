@@ -46,6 +46,15 @@
   font-size: 1.2em;
 }
 
+.project-items a {
+  font-size: 1.2em;
+  color: blue;
+}
+
+.project-items a:hover {
+  color: white;
+}
+
 @media screen and (max-width: 901px) {
   .project-container {
     margin-top: 20vh;

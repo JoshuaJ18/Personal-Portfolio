@@ -2,6 +2,7 @@ import hangman from "./hangman.jpg";
 import student from "./studentRecords.jpg";
 import programming from "./programmingClubWebsite.png";
 import website from "./website.png";
+import trading from "./trading.jpg";
 
 export const ProjectData = [
   {
@@ -24,6 +25,7 @@ export const ProjectData = [
     + "class.",
     img: hangman,
     class: "project-items",
+    lin: "https://github.com/JoshuaJ18/HangmanProject",
   },
   {
     pName: "Peronsal Portfolio Website",
@@ -31,5 +33,14 @@ export const ProjectData = [
     + "go through more in the future. As of now, it is built in the Javascript framework React.",
     img: website,
     class: "project-items",
+    link: "https://github.com/JoshuaJ18/Personal-Portfolio",
+  },
+  {
+    pName: "C++ Stock Trading Simulator",
+    description: "This project is a stock trading simulator that allows the user to buy and sell stocks or advance to the next day "
+    + "while the stock prices change each day.",
+    img: trading,
+    class: "project-items",
+    link: "https://github.com/JoshuaJ18/Personal-Portfolio",
   },
 ]
