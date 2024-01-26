@@ -24,6 +24,7 @@
   list-style: none;
   color: white;
   padding: 2vh 2vw 5vh;
+  overflow-y: scroll;
 }
 
 .project-items {
