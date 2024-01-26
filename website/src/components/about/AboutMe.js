@@ -17,11 +17,11 @@ function AboutMe() {
         <p>I am a Junior Computer Science Major at George Mason University who loves to learn!
         I have experience as a Software Engineer Intern at Northrop Grumman, where I worked
         within the simulation subdivision of an Artificial Intelligence team. I mainly worked in
-        Python during this internship.
+        Python during this internship. For summer 2024 I will be a Software Engineer Intern at Netflix! 
         <br></br> 
         I also have experience with web development technologies like React.js, Node.js, and 
-        Express.js through personal projects. I am interested in Full Stack, Embedded, and Low Level
-        development and eager to learn more about all of these specialties.
+        Express.js through personal projects. I am interested mostly in backend development, but I enjoy 
+        full stack development as well.
         </p>
       </div>
     </div>

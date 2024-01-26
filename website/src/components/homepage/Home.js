@@ -17,7 +17,7 @@ function Home() {
         </h1>
       </div>
       <div className="text-div">
-        <p className="text" data-aos="fade-right"> I am a Computer Science Major</p>
+        <p className="text" data-aos="fade-right"> I am a Computer Science Major at George Mason University</p>
       </div>
     </div>
   );

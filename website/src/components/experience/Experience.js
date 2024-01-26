@@ -20,13 +20,6 @@ function Experience() {
                 <h2> {item.company} </h2>
                 <h3 className="job-titles"> {item.jobTitle} </h3>
                 <h3 className="dates"> {item.dates} </h3>
-                <ul className="job-description">
-                  <li> {item.jobDescription1} </li>
-                  <li> {item.jobDescription2} </li>
-                  <li> {item.jobDescription3} </li>
-                  <li> {item.jobDescription4} </li>
-                  <li> {item.jobDescription5} </li>
-                </ul>
               </li>
             </ul>
           )
